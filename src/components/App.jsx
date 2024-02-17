@@ -30,8 +30,8 @@ function App() {
           <Note
             key={index}
             id={index}
-            title={noteItem.title}
-            content={noteItem.content}
+            title={noteItem?.title}
+            content={noteItem?.content}
             onDelete={deleteNote}
           />
         );
